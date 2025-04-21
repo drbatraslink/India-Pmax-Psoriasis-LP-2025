@@ -500,3 +500,7 @@ a:hover{text-decoration: none;}
 @media (max-width:600px){
 .treatment_all_comm_div .your_privacy_matter_section{margin-top:30px}
 }
+
+.btn_book_appoinment_box{
+	position:fixed;z-index:8;bottom:0
+}
