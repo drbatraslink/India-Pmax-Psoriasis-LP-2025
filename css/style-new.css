@@ -101,7 +101,7 @@ a:hover{text-decoration: none;}
 }
 @media screen and (max-width:768px){
 .banner_list_newhair{text-align:center;margin-bottom:10px;padding-inline-start:0px}
-.banner_list_newhair li{display:inline;font-size:14px}
+.banner_list_newhair li{display:inline;font-size:12px}
 .banner_list_newhair li:first-child{padding-top:0;padding-left:0}
 .banner_list_newhair li:not(:last-child)::after{content:'•';margin:0 4px;color:#fff}
 }
