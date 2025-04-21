@@ -441,7 +441,7 @@ a:hover{text-decoration: none;}
 .treatment_all_comm_div.faq_accordation_section .accordion__header.active{background:#ecf0f2;}
 .treatment_all_comm_div.faq_accordation_section .accordion__header.active::after{transform:rotateX(180deg)}
 .treatment_all_comm_div.faq_accordation_section .accordion__item.active{border:1px solid #000;}
-.treatment_all_comm_div.faq_accordation_section .accordion__item.active .accordion__content{max-height: 600px !important; height: auto;}
+.treatment_all_comm_div.faq_accordation_section .accordion__item.active .accordion__content{max-height: 1000px !important; height: auto;}
 .treatment_all_comm_div.faq_accordation_section .accordion__item .accordion__content{padding:0 25px;max-height:0;transition:.5s;overflow:hidden;background:#ecf0f2;font-size:16px !important;font-weight:400}
 .treatment_all_comm_div.faq_accordation_section .accordion__item .accordion__content p{margin-bottom:15px}
 .treatment_all_comm_div.faq_accordation_section .accordion__item ul{padding-inline-start: 20px;}
