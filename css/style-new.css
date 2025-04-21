@@ -16,7 +16,7 @@ header{background:#f6f7fb;position:fixed;top:0;z-index:1000!important}
 .carousel-indicators li{background-color:#2876a9;opacity:1}
 .carousel-indicators .active{background-color:#e41225;opacity:1}
 .head-main-tel{color:#0c4679;font-weight:700;text-decoration:none}
-.head-main-tel:hover{color:#dfce9d;text-decoration:none}
+.head-main-tel:hover{color:#1f83c5;text-decoration:none}
 .headerno-cls{font-size:30px;color:#0c4679;margin-bottom:0}
 .treatment_all_heading_page{margin-bottom:10px;font-size:32px!important;color:#000;font-weight:600}
 @media (max-width:1440px){
