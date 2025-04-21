@@ -21,9 +21,11 @@ header{background:#f6f7fb;position:fixed;top:0;z-index:1000!important}
 .treatment_all_heading_page{margin-bottom:10px;font-size:32px!important;color:#000;font-weight:600}
 @media (max-width:1440px){
 .treatment_all_heading_page{margin-bottom:8px;font-size:30px!important;color:#000;font-weight:600}
+.headerno-cls{font-size:26px;color:#0c4679;margin-bottom:0}
 }
 @media (max-width:1280px){
 .treatment_all_heading_page{margin-bottom:8px;font-size:26px!important;color:#000;font-weight:600}
+.headerno-cls{font-size:24px;color:#0c4679;margin-bottom:0}
 }
 @media (max-width:600px){
 .treatment_all_heading_page{margin-bottom:10px;font-size:22px!important;color:#000;font-weight:600;text-align:left}
@@ -51,7 +53,7 @@ a:hover{text-decoration: none;}
 .treatment_all_comm_div .talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:10px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:18px!important;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 }
 @media (max-width:992px){
-.treatment_all_comm_div.banner_new_section h1{font-size:38px!important;font-weight:700;line-height:normal;color:#fff}
+.treatment_all_comm_div.banner_new_section h1{font-size: 32px!important;font-weight:700;line-height:normal;color:#fff}
 .treatment_all_comm_div.banner_new_section h2{font-size:21px!important;font-weight:400;line-height:normal;color:#fff}
 .treatment_all_comm_div .talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:8px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:16px!important;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 }
@@ -81,24 +83,32 @@ a:hover{text-decoration: none;}
 .offer_section{color:#fff!important;line-height:normal;font-size:18px;margin-bottom:0;border:1px solid #fff;display:inline-block;padding:10px 20px;font-weight:400}
 .offer_section span{font-size:45px;font-weight:800;color:#fff}
 @media (max-width:1200px){
-.offer_section span{font-size:36px}
+.offer_section {font-size: 12px !important}
+.offer_section span{font-size: 24px;}
+.banner_list_newhair li{display:inline;font-size:12px}
 }
 @media (max-width:600px){
 .offer_section{font-size:16px;padding:8px 20px;margin-bottom:10px}
+.offer_section {font-size: 16px !important}
 .offer_section span{font-size:26px}
 }
-.banner_list_newhair{padding:0;margin:0;list-style:disc!important;line-height:normal;text-align:left;padding-inline-start:25px}
+.banner_list_newhair{padding:0;margin:0;list-style:disc!important;line-height:normal;text-align:left;padding-inline-start: 25px;}
 .banner_list_newhair li{display:list-item;color:#fff;font-weight:400;font-size:16px;position:relative;line-height:normal;margin-bottom:6px}
 .banner_list_newhair li strong{font-weight:600}
 .banner_list_newhair li:first-child{padding-top:8px;padding-left:0}
 @media screen and (max-width:1440px){
-.banner_list_newhair li{font-size:14px}
+.banner_list_newhair li{font-size: 12px;}
 }
 @media screen and (max-width:768px){
 .banner_list_newhair{text-align:center;margin-bottom:10px;padding-inline-start:0px}
-.banner_list_newhair li{display:inline;font-size:12px}
+.banner_list_newhair li{display:inline;font-size:14px}
 .banner_list_newhair li:first-child{padding-top:0;padding-left:0}
 .banner_list_newhair li:not(:last-child)::after{content:'•';margin:0 4px;color:#fff}
+}
+/* T&c Section css*/
+.blue-strip-offer-section{text-align:right;color:#fff;font-size:14px;position:relative;bottom:-18px}
+@media (max-width:600px){
+.blue-strip-offer-section{text-align:right;padding-bottom:20px;margin-top:-155px;font-size:12px;font-weight:600;writing-mode:vertical-rl;text-orientation:mixed;transform:scale(1)}
 }
 /*==========================================*/
 /* offer-blue section css*/
