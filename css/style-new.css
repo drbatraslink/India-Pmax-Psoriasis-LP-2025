@@ -496,11 +496,8 @@ a:hover{text-decoration: none;}
 /*==========================================*/
 /* Section css*/
 /*==========================================*/
-.treatment_all_comm_div .your_privacy_matter_section{margin-top:50px;padding:40px;background-color:#e0f3ff;border-radius:20px}
+.treatment_all_comm_div .your_privacy_matter_section{margin-top:30px;padding:40px;background-color:#e0f3ff;border-radius:20px}
 @media (max-width:600px){
-.treatment_all_comm_div .your_privacy_matter_section{margin-top:30px}
+.treatment_all_comm_div .your_privacy_matter_section{margin-top:0px}
 }
-
-.btn_book_appoinment_box{
-	position:fixed;z-index:8;bottom:0
-}
+.btn_book_appoinment_box{position:fixed;z-index:8;bottom:0}
