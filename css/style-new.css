@@ -33,6 +33,8 @@ header{background:#f6f7fb;position:fixed;top:0;z-index:1000!important}
 }
 .owl-carousel .owl-item img{width:auto}
 .owl-carousel .owl-dots{display:none}
+a{color: #0c4679}
+a:hover{text-decoration: none;}
 
 /*==========================================*/
 /* New Banner css*/
