@@ -82,7 +82,7 @@ a:hover{text-decoration: none;}
 }
 .offer_section{color:#fff!important;line-height:normal;font-size:18px;margin-bottom:0;border:1px solid #fff;display:inline-block;padding:10px 20px;font-weight:400}
 .offer_section {
-  min-height: 80px; /* reserve height to avoid shifting */
+  min-height: 50px; /* reserve height to avoid shifting */
 }
 .offer_section span{font-size:45px;font-weight:800;color:#fff}
 @media (max-width:1200px){
